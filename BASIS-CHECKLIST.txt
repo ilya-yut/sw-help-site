@@ -1,0 +1,42 @@
+Skywind Knowledge Portal — hosting checklist
+For the basis / IT team. One static folder. Nothing to install.
+
+What this is
+  A browser-saved copy of the help site, converted to plain files.
+  123 topic pages, 51 category pages, a home page, and a search page.
+  About 444 MB and 5,542 files. Almost all of the size is JPEG screenshots.
+
+What the server must provide
+  Any web server that serves files from a folder: nginx, Apache, or IIS.
+  Disk space: 500 MB free is enough.
+  These MIME types, which a default static-file setup already has:
+    .html  text/html
+    .css   text/css
+    .js    text/javascript
+    .jpg   image/jpeg
+    .png   image/png
+    .woff2 font/woff2
+  If a font file downloads instead of being used, add .woff2 as font/woff2.
+  Default document / directory index: index.html.
+  JavaScript enabled in Chrome, Edge, or Firefox.
+  No outbound internet. The pages do not load fonts, scripts, or images from the internet.
+  No PHP, no CGI, no database, no installer, no executable.
+
+How to publish
+  1. Copy the whole "site" folder onto the server. Keep "assets" beside the HTML files.
+  2. The folder can be the site root or a subfolder. Links are relative, so both work.
+  3. Open http://<server>/index.html  or  http://<server>/<folder>/index.html
+  4. Check that the Skywind logo, the topic tree, and the search box appear.
+  5. Open a page several levels down, click a screenshot (it should zoom), and run a search.
+  6. In the browser network panel, confirm every request stays on this server.
+
+Leave out
+  Do not add a server-side runtime for this folder.
+  Two video pages were omitted on purpose. There are no .mp4 files to host.
+
+Limits that are not a server fault
+  Nine screenshots were never in the export, so those pictures stay blank.
+  A few decorative theme backgrounds were not in the export either.
+  Links that point at help.skywind.com, skywind.com, SAP, Google Docs, or
+  Wikipedia are ordinary links. They do not open without internet.
+  "Submit a ticket" was removed because it only works on the live site.

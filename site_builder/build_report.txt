@@ -1,0 +1,74 @@
+=== BUILD REPORT ===
+Input pages: 126   Built pages: 123   Skipped (video): 2   Home page: original product cards
+Output: 5550 files, 444.2 MB   (assets: 5361 unique files, 434.9 MB)
+Options: single_image=False keep_carousel_dom=False csp=True fonts=bundled
+
+--- Skipped pages (contain video) ---
+  Actual SoD Violations (by SoD Rules) – Video
+  Potential SoD Violations (by SoD Rules) – Video
+
+--- Pages not listed in the category tree (shown under 'Other pages'): 0 ---
+
+--- Categories built: 51 ---
+
+--- Internal links that point to pages not in this build (links removed, text kept) ---
+  total: 137
+    124x  /submit-a-ticket
+      1x  /alert-management-summary
+      1x  /recipient-lists/ad-04-04-2
+      1x  /recipient-lists/ad-04-05-2
+      1x  /recipient-lists/ad-04-06-2
+      1x  /event-driven-jobs/jk-12-07
+      1x  /event-driven-jobs/jk-12-08
+      1x  /event-driven-jobs/jk-12-09
+      1x  /event-driven-jobs/jk-12-10
+      1x  /event-driven-jobs/jk-12-11
+      1x  /event-driven-jobs/jk-12-12
+      1x  /soda-users/ad-05-04-2
+      1x  /soda-users/ad-05-05-2
+      1x  /soda-users/ad-05-06-2
+
+--- Links to uploaded files (PDF/images) that are NOT in the export (will be dead) ---
+  total: 9
+      2x  /wp-content/uploads/2021/10/wz-06-09.jpg
+      1x  /wp-content/uploads/2021/11/am-01-06.jpg
+      1x  /wp-content/uploads/2021/08/r3-01-10-1.jpg
+      1x  /wp-content/uploads/2021/08/r3-01-11-1.jpg
+      1x  /wp-content/uploads/2021/08/r3-01-12-1.jpg
+      1x  /wp-content/uploads/2024/10/r9-01-12b.jpg
+      1x  /wp-content/uploads/2024/10/r9-01-14-e1728319373774.jpg
+      1x  /wp-content/uploads/2024/10/r9-01-14.jpg
+
+--- Files referenced by pages but missing from the zip ---
+  distinct: 141
+      1x  ../images/ajax-loader.gif
+      1x  # of Jobs vs Job’s duration_files/owl.video.play.png
+      1x  img/questions_bg.jpg
+      1x  img/category-list_img1.png
+      1x  img/support_bg.jpg
+      1x  img/footer_bg.jpg
+      1x  img/post-print_img.png
+      1x  img/post-right_ul_img.png
+      1x  img/ticket_bg.jpg
+      1x  img/checkvox_bg.png
+      1x  img/sign_bg.jpg
+      1x  img/slide-right.png
+      1x  img/slide-left.png
+      1x  img/main-categorys-87_bg.jpg
+      1x  img/category-list_img1_red.png
+
+--- Remote URLs found inside CSS (neutralised) ---
+      5x  help.skywind.com
+
+--- SELF-CHECK: external resources still loaded by pages (must be empty) ---
+  none - pages load nothing from the internet
+
+--- External hyperlinks (clickable only, no automatic requests; will not open offline) ---
+      9x  help.skywind.com
+      5x  skywind.com
+      1x  answers.sap.com
+      1x  docs.google.com
+      1x  en.wikipedia.org
+
+--- Site-specific strings inside bundled JS/CSS (may hide online calls) ---
+  none

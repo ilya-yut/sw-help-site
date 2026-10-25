@@ -1,0 +1,7 @@
+# Delivery zip is over GitHub's 100 MB file limit.
+Skywind-Help-Site.zip
+
+__pycache__/
+*.pyc
+.env
+.env.*
